@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    background-color:black;
+    width:434px;
+    height:100vh;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold;
+}
+.sidebar nav{
+    padding:45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0px;
+}
+.sidebar li a{
+    text-decoration:none;
+    color:white;
+}
+.main{
+    background-color: white;
+    width:90vw;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    /* background-color:pink; */
+    width:74vw;
+    height:58vh;
+    margin:144px auto;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+
+.devinfo{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    font-size: 24px;
+}
+.hello{
+    font-size:65px;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size:50px;
+    font-weight:bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+    
+.about{
+    font-size:40px;
+}
+.moreabout{
+    font-size:22px;
+
+}
+.buttons{
+  margin-top:32px;
+}
+.buttons button{
+    padding:5px 12px;
+    border-radius:22px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight:bold;
+    font-size:23px;
+    margin:0 3px;
+    cursor:pointer;
+}
+.buttons button:hover{
+    background-color:white;
+    color: dodgerblue;
+    
+}
+.contactform{
+    padding:0 34px;
+    padding-top:144px;
+    font-family: 'Lato', sans-serif;
+
+}
+.contactform h1{
+    font-family:'Source Code Pro', monospace;
+    text-align: center;
+} 
+.contactform div{
+    padding:12px 0px;
+}
+
+#emailHelp{
+    font-size:8px;
+    color: midnightblue;
+    margin:0px 5px;
+}
+h1{
+    font-size:45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-size:45;
+}
+img{
+    width: 34px;
+    height:34px;
+    background-color:rgba(179, 167, 167, 0.952);;
+}
